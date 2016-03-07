@@ -16,7 +16,7 @@ def message(msg):
     print 'Group Name: ' + msg['chat']['title']
     print
     print 'Username ID:', msg['from']['id']
-    hprint 'Username: ' + msg['from']['username']
+    print 'Username: ' + msg['from']['username']
     Work = False
 
 api = get_conf()
