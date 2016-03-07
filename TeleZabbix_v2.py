@@ -81,7 +81,7 @@ def events(last):
 def get_conf():
     from ConfigParser import ConfigParser
     config = ConfigParser()
-    config.read('TeleZabbix.conf')
+    config.read('etc/TeleZabbix.conf')
     api = config.get('Telegram','api')
     group_id = config.get('Telegram','group_id')
     admins = config.get('Telegram','admins')
