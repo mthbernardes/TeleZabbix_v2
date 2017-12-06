@@ -115,4 +115,4 @@ if len(sys.argv) >= 2:
     elif sys.argv[1] == 'status':
         daemon_service.is_running()
 else:
-    print 'Usage:',sys.argv[0],'star | stop | restart | status'
+    print 'Usage:',sys.argv[0],'start | stop | restart | status'
